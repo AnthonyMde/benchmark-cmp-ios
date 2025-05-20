@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import Shared
 
 struct ContentView: View {
+    let platform = Shared.Platform_iosKt.getPlatform()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,6 +19,9 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            print("platform is: \(platform.name)")
+        }
     }
 }
 

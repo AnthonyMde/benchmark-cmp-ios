@@ -1,0 +1,15 @@
+{
+  "originHash" : "6758e4d97aeffed1441c0cbc4c52667244c533ef85780a220c3cd7f95d13a29f",
+  "pins" : [
+    {
+      "identity" : "benchmark-cmp-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnthonyMde/benchmark-cmp-spm",
+      "state" : {
+        "branch" : "main",
+        "revision" : "26a1c5af5c00ba2aff0f17872deadfb71d5f8bb8"
+      }
+    }
+  ],
+  "version" : 3
+}

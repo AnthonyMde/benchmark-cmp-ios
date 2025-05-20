@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8A6768FE2DDCAB0900993D4F /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 8A6768FD2DDCAB0900993D4F /* Shared */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8A6768E02DDCA63E00993D4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6768FE2DDCAB0900993D4F /* Shared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "benchmark-cmp-ios";
 			packageProductDependencies = (
+				8A6768FD2DDCAB0900993D4F /* Shared */,
 			);
 			productName = "benchmark-cmp-ios";
 			productReference = 8A6768D22DDCA63C00993D4F /* benchmark-cmp-ios.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 8A6768C92DDCA63C00993D4F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8A6768FC2DDCAB0900993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8A6768D32DDCA63C00993D4F /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A6768FC2DDCAB0900993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AnthonyMde/benchmark-cmp-spm";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A6768FD2DDCAB0900993D4F /* Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A6768FC2DDCAB0900993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */;
+			productName = Shared;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A6768CA2DDCA63C00993D4F /* Project object */;
 }
