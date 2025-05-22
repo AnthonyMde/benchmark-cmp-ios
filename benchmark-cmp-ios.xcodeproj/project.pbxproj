@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A6768FE2DDCAB0900993D4F /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 8A6768FD2DDCAB0900993D4F /* Shared */; };
+		8A67690A2DDF1AE000993D4F /* shared in Frameworks */ = {isa = PBXBuildFile; productRef = 8A6769092DDF1AE000993D4F /* shared */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A6768FE2DDCAB0900993D4F /* Shared in Frameworks */,
+				8A67690A2DDF1AE000993D4F /* shared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 			);
 			name = "benchmark-cmp-ios";
 			packageProductDependencies = (
-				8A6768FD2DDCAB0900993D4F /* Shared */,
+				8A6769092DDF1AE000993D4F /* shared */,
 			);
 			productName = "benchmark-cmp-ios";
 			productReference = 8A6768D22DDCA63C00993D4F /* benchmark-cmp-ios.app */;
@@ -202,7 +202,7 @@
 			mainGroup = 8A6768C92DDCA63C00993D4F;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				8A6768FC2DDCAB0900993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */,
+				8A6769082DDF1AE000993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8A6768D32DDCA63C00993D4F /* Products */;
@@ -569,7 +569,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8A6768FC2DDCAB0900993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */ = {
+		8A6769082DDF1AE000993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AnthonyMde/benchmark-cmp-spm";
 			requirement = {
@@ -580,10 +580,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8A6768FD2DDCAB0900993D4F /* Shared */ = {
+		8A6769092DDF1AE000993D4F /* shared */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8A6768FC2DDCAB0900993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */;
-			productName = Shared;
+			package = 8A6769082DDF1AE000993D4F /* XCRemoteSwiftPackageReference "benchmark-cmp-spm" */;
+			productName = shared;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

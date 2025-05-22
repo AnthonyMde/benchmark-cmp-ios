@@ -6,22 +6,20 @@
 //
 
 import SwiftUI
-import Shared
+import shared
 
 struct ContentView: View {
-    let platform = Shared.Platform_iosKt.getPlatform()
+    let platform = shared.IOSPlatform()
+    let premium = shared.UsersRepositoryKt.getUserPremiumStatus()
     
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, world! on \(platform.name) with \(premium)")
         }
         .padding()
-        .onAppear {
-            print("platform is: \(platform.name)")
-        }
     }
 }
 
